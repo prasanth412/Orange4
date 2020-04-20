@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="58344" started-at="2020-04-20T03:51:13Z" finished-at="2020-04-20T03:52:12Z">
+    <groups>
+    </groups>
+    <test name="AdminTest" duration-ms="42120" started-at="2020-04-20T03:51:13Z" finished-at="2020-04-20T03:51:55Z">
+      <class name="com.htc.orange.testcases.PIMSearchEmpTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.htc.orange.testcases.PIMSearchEmpTest@6093dd95]" name="setup" is-config="true" duration-ms="13265" started-at="2020-04-19T23:51:16Z" finished-at="2020-04-19T23:51:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="T001_loginPageTest(java.util.Map)[pri:0, instance:com.htc.orange.testcases.PIMSearchEmpTest@6093dd95]" name="T001_loginPageTest" duration-ms="19050" started-at="2020-04-19T23:51:29Z" data-provider="LoginCredentials" finished-at="2020-04-19T23:51:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=admin123, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T001_loginPageTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.htc.orange.testcases.PIMSearchEmpTest@6093dd95]" name="setup" is-config="true" duration-ms="19" started-at="2020-04-19T23:51:48Z" finished-at="2020-04-19T23:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="T002_DashBoardTest()[pri:0, instance:com.htc.orange.testcases.PIMSearchEmpTest@6093dd95]" name="T002_DashBoardTest" duration-ms="4560" started-at="2020-04-19T23:51:48Z" depends-on-methods="com.htc.orange.testcases.PIMSearchEmpTest.T001_loginPageTest" finished-at="2020-04-19T23:51:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T002_DashBoardTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.htc.orange.testcases.PIMSearchEmpTest@6093dd95]" name="setup" is-config="true" duration-ms="19" started-at="2020-04-19T23:51:53Z" finished-at="2020-04-19T23:51:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="T003_searchEmpTest(java.util.Map)[pri:0, instance:com.htc.orange.testcases.PIMSearchEmpTest@6093dd95]" name="T003_searchEmpTest" duration-ms="2080" started-at="2020-04-19T23:51:53Z" data-provider="PIMSearchEmp" depends-on-methods="com.htc.orange.testcases.PIMSearchEmpTest.T002_DashBoardTest" finished-at="2020-04-19T23:51:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ID=0002}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T003_searchEmpTest -->
+      </class> <!-- com.htc.orange.testcases.PIMSearchEmpTest -->
+    </test> <!-- AdminTest -->
+    <test name="Leavelist" duration-ms="16168" started-at="2020-04-20T03:51:55Z" finished-at="2020-04-20T03:52:12Z">
+      <class name="com.htc.orange.testcases.LeaveConfigTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.htc.orange.testcases.LeaveConfigTest@42dafa95]" name="setup" is-config="true" duration-ms="10" started-at="2020-04-19T23:51:56Z" finished-at="2020-04-19T23:51:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="T001_loginPageTest(java.util.Map)[pri:0, instance:com.htc.orange.testcases.LeaveConfigTest@42dafa95]" name="T001_loginPageTest" duration-ms="5596" started-at="2020-04-19T23:51:56Z" data-provider="LoginCredentials" finished-at="2020-04-19T23:52:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=admin123, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T001_loginPageTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.htc.orange.testcases.LeaveConfigTest@42dafa95]" name="setup" is-config="true" duration-ms="13" started-at="2020-04-19T23:52:01Z" finished-at="2020-04-19T23:52:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="T002_DashBoardTest()[pri:0, instance:com.htc.orange.testcases.LeaveConfigTest@42dafa95]" name="T002_DashBoardTest" duration-ms="6565" started-at="2020-04-19T23:52:01Z" depends-on-methods="com.htc.orange.testcases.LeaveConfigTest.T001_loginPageTest" finished-at="2020-04-19T23:52:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T002_DashBoardTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.htc.orange.testcases.LeaveConfigTest@42dafa95]" name="setup" is-config="true" duration-ms="9" started-at="2020-04-19T23:52:08Z" finished-at="2020-04-19T23:52:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="T003_addLeaveTypesTest(java.util.Map)[pri:0, instance:com.htc.orange.testcases.LeaveConfigTest@42dafa95]" name="T003_addLeaveTypesTest" duration-ms="3668" started-at="2020-04-19T23:52:08Z" data-provider="LeaveConfig" depends-on-methods="com.htc.orange.testcases.LeaveConfigTest.T002_DashBoardTest" finished-at="2020-04-19T23:52:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LeaveTypeName=Optional}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T003_addLeaveTypesTest -->
+      </class> <!-- com.htc.orange.testcases.LeaveConfigTest -->
+    </test> <!-- Leavelist -->
+  </suite> <!-- Suite -->
+</testng-results>
